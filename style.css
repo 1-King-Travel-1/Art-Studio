@@ -346,6 +346,8 @@ h3 {
     }
     .feature-content{
         padding: 0;
+        flex-direction: column;
+        font-size: 20px;
     }
     .rect1{
         height: 100px;
