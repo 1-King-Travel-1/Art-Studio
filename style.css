@@ -344,4 +344,19 @@ h3 {
         padding: 0;
         padding-top: 30px;
     }
+    .feature-content{
+        padding: 0;
+    }
+    .rect1{
+        height: 100px;
+        width: 100px;
+    }
+    .rect2{
+        height: 75px;
+        width: 75px;
+    }
+    .rect3{
+        height: 75px;
+        width: 150px;
+    }
 }
