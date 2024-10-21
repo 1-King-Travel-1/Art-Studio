@@ -49,6 +49,18 @@
     animation: wiggle 2s infinite;
 }
 
+h1 {
+    font-size: 150px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 30px;
+}
+
 .social-menu {
     position: fixed;
     right: 0;
@@ -293,6 +305,119 @@ h3 {
     background-size: cover;
 }
 
+.portfolio h2 {
+    text-align: right;
+    padding: 100px 0;
+    background-color: #fe6969;
+    color: white;
+    font-size: 50px;
+}
+
+.portfolio-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-cards img {
+    width: 50%;
+    flex-grow: 1;
+    opacity: 0.5;
+}
+
+.card6 {
+    order: -4;
+}
+
+.card7 {
+    order: -3;
+}
+
+.card5 {
+    order: -2;
+}
+
+.card3 {
+    order: -1;
+}
+
+.card1 {
+    order: 3;
+}
+
+.card2 {
+    order: 2;
+}
+
+.portfolio-cards img:hover {
+    opacity: 1;
+    transition: 3s;
+}
+
+.contact {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.left-s {
+    flex-basis: 300px;
+    background-image: url(img/pictures/form-left.png);
+    flex-grow: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-shrink: 5;
+}
+
+.right-s {
+    flex-basis: 300px;
+    background-image: url(img/pictures/form-right.png);
+    flex-grow:1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-shrink: 5;
+}
+
+.mid-s form {
+    display: flex;
+    flex-direction: column;
+
+}
+.mid-s input, .mid-s select{
+    margin: 20px 0;
+    padding: 5px;
+}
+
+.mid-s h2{
+    text-align: right;
+}
+.mid-s label{
+    font-size: 30px;
+}
+.mid-s {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+    background-color: #23536d;
+    color: white;
+    text-decoration: none;
+    padding: 20px 20px;
+    flex-shrink: 1;
+}
+.mid-s input[type=checkbox]{
+    display: block;
+    align-self: flex-start;
+}
+.mid-s a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background-color: black;
+    align-self: center;
+    padding: 15px 25px;
+    border-radius: 0 10px;
+}
+
 @media (max-width:420px) {
     .menu {
         width: 100%;
@@ -340,24 +465,29 @@ h3 {
         padding-left: 0;
 
     }
-    .about-bg{
+
+    .about-bg {
         padding: 0;
         padding-top: 30px;
     }
-    .feature-content{
+
+    .feature-content {
         padding: 0;
         flex-direction: column;
         font-size: 20px;
     }
-    .rect1{
+
+    .rect1 {
         height: 100px;
         width: 100px;
     }
-    .rect2{
+
+    .rect2 {
         height: 75px;
         width: 75px;
     }
-    .rect3{
+
+    .rect3 {
         height: 75px;
         width: 150px;
     }
